@@ -25,5 +25,5 @@ sed -i '/^interface wlan0/,/^$/d' /etc/dhcpcd.conf 2>/dev/null || true
 
 echo ""
 echo "Done. WiFi AP is disabled."
-echo "Ravidian scanner, web server, and SSH tunnel are unaffected."
+
 
