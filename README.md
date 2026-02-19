@@ -8,6 +8,7 @@ Download and run disable_wifi_ap.sh
 # Manual Commands
 
 On a headless/non-UI Raspberry Pi (Lite) installation, to use a USB stick inserted:
+
 sudo apt update
 sudo apt install exfat-fuse exfatprogs
 
