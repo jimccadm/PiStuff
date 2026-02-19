@@ -12,6 +12,11 @@ On a headless/non-UI Raspberry Pi (Lite) installation, to use a USB stick insert
 sudo apt update
 sudo apt install exfat-fuse exfatprogs
 
+Then install the USB disk controller/manager:
+
+sudo apt install udisks2
+
+
 Then run fdisk -l to identify the drive (example: /dev/sda2
 
 Then mount the drive so you can use files on it:
